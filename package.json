@@ -1,0 +1,19 @@
+{
+  "name": "gpt-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "DiscordBot.js",
+  "scripts": {
+    "dev": "nodemon DiscordBot.js",
+    "start": "node DiscordBot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1",
+    "openai": "^3.3.0"
+  }
+}
